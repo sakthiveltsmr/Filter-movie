@@ -29,6 +29,6 @@ h1 {
   cursor: pointer;
 }
 button.active {
-  background: rgb(65, 98, 168);
+  background: rgb(8, 8, 80);
   color: white;
 }
