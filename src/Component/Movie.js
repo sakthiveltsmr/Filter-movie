@@ -7,6 +7,7 @@ function Movie({ movie }) {
       animate={{ opacity: 1 }}
       initial={{ opacity: 0 }}
       exit={{ opacity: 0 }}
+      transition={{ duration: 2 }}
       layout
     >
       <h1>{movie.title}</h1>
