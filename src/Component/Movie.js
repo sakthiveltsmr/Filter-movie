@@ -11,7 +11,10 @@ function Movie({ movie }) {
       layout
     >
       <h1>{movie.title}</h1>
-      <img src={`https://image.tmdb.org/t/p/w500${movie.backdrop_path}`} />
+      <img
+        src={`https://image.tmdb.org/t/p/w500${movie.backdrop_path}`}
+        alt=""
+      />
     </motion.div>
   );
 }
